@@ -2,13 +2,17 @@
   "name": "youtubeclone",
   "version": "1.0.0",
   "description": "my first project in node",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "node"
   ],
   "author": "chandan kumar yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
